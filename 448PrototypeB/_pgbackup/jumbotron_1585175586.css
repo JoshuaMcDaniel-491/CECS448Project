@@ -1,0 +1,27 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+}
+
+.poster {
+    background-image: url("images/448Stock.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: filter 0.7s ease-in-out;
+}
+
+.poster:hover {
+    filter: saturate(120%);
+}
+
+.boxTest {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.boxTest:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
